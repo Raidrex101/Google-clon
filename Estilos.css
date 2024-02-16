@@ -29,13 +29,14 @@ header {
 }
 
 .puntos {
-    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
     text-decoration: none;
 }
 
 .puntos:hover {
     background-color: #444746;
-    border-radius: 8px;
+    border-radius: 50px;
 }
 
 .boton {
@@ -71,8 +72,9 @@ input#Buscar {
     width: 500px;
     height: 35px;
     cursor: text;
-
+    border: 2px solid #ccc;
 }
+
 
 #search {
     background-color: #303134;
@@ -85,6 +87,11 @@ input#Buscar {
     cursor: pointer;
 }
 
+div.fa-solid fa-magnifying-glass{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
 #lucky {
     background-color: #303134;
     color: white;
@@ -96,9 +103,14 @@ input#Buscar {
     cursor: pointer;
 }
 
-.mexico {
-    border-bottom: 1px solid darkgray;
+footer{
+    bottom: 0;
+    position: fixed;
+}
 
+.mexico {
+    flex: auto;
+    border-bottom: 1px solid darkgray;
 }
 
 .footer {
@@ -107,6 +119,7 @@ input#Buscar {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    
 }
 
 .izquierda {
