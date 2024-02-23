@@ -83,6 +83,21 @@ header {
    
 }
 
+.micro {
+    position: absolute;
+    z-index: 2;
+    width: 27px;
+    margin-left: 460px;
+    margin-top: 9px;
+}
+
+.lens {
+    position: absolute;
+    z-index: 2;
+    width: 28px;
+    margin-left: 495px;
+    margin-top: 8.8px;
+}
 input#Buscar {
     position:relative;
     border-radius: 20px;
